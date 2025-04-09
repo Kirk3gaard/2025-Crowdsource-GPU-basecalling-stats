@@ -6,6 +6,22 @@ output: github_document
 always_allow_html: true
 ---
 
+## Aim
+
+To make it easier to get an overview of the performance you can get for nanopore basecalling with [dorado](https://github.com/nanoporetech/dorado) using a specific GPU. 
+
+## How to contribute?
+
+* Download some 5khz pod5 data ([zenodo](https://zenodo.org/records/15180194))
+* Download [dorado](https://github.com/nanoporetech/dorado)
+* Run basecalling `dorado basecaller --device  'cuda:0' sup pod5/ > basecalls.bam`
+* Add your samples/s output to [google form](https://forms.gle/Qw1wiL662YrbHPxk6)
+
+## Data availability
+
+The collected information is available in [this google sheet](https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing) 
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 options(scipen = 10)
@@ -16,7 +32,7 @@ library(tidyverse)
 library(gsheet)
 d<-gsheet2tbl('https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing')
 
-GPU_specs<-read_csv("GPU_specs.txt")
+GPU_specs<-read_csv("GPU_specs.csv")
 
 # Arrange
 architecture_year_map <- tapply(GPU_specs$`Architecture Release Year`, GPU_specs$Architecture, unique)
@@ -36,6 +52,8 @@ sorted_gpus <- unique(dw_specs_sorted$`GPU`)
 dw_specs$`GPU` <- factor(dw_specs$`GPU`, levels = sorted_gpus)
 
 ```
+
+## Basecalling performance
 
 ```{r echo=FALSE,message=FALSE}
 dw_specs %>% 
