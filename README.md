@@ -26,4 +26,7 @@ sheet](https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMv
 
 ## Basecalling performance
 
+The red line indicates the capacity needed to basecall 1 PromethION
+flowcell (yielding 150 Gbp/72hours), the blue line 2 flowcells.
+
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
