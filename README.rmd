@@ -1,0 +1,52 @@
+---
+title: "README"
+author: "Rasmus Kirkegaard"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: github_document
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen = 10)
+```
+
+```{r  echo=FALSE,message=FALSE,results='asis'}
+library(tidyverse)
+library(gsheet)
+d<-gsheet2tbl('https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing')
+
+GPU_specs<-read_csv("GPU_specs.txt")
+
+# Arrange
+architecture_year_map <- tapply(GPU_specs$`Architecture Release Year`, GPU_specs$Architecture, unique)
+
+# Sort the unique architecture names based on their release year
+sorted_architectures <- names(sort(unlist(architecture_year_map)))
+
+# Relevel the 'Architecture' factor based on the sorted order
+GPU_specs$Architecture <- factor(GPU_specs$Architecture, levels = sorted_architectures)
+
+
+
+dw_specs<-left_join(d,GPU_specs)
+
+dw_specs_sorted <- dw_specs[order(dw_specs$`Architecture Release Year`, dw_specs$`Gbp/day`), ]
+sorted_gpus <- unique(dw_specs_sorted$`GPU`)
+dw_specs$`GPU` <- factor(dw_specs$`GPU`, levels = sorted_gpus)
+
+```
+
+```{r echo=FALSE,message=FALSE}
+dw_specs %>% 
+  ggplot(aes(y = `Gbp/day`,x = GPU,fill=Architecture))+
+  geom_hline(yintercept = 50,colour = "red",linetype = "dashed")+
+  geom_hline(yintercept = 100,colour = "blue",linetype = "dashed")+
+  geom_bar(stat="identity")+
+  facet_grid(rows=vars(Architecture),scales="free",space = "free")+
+  #annotate(geom="text", x=4, y=70, label="1 PromethION flowcell",color="red")+
+  coord_flip()+
+  theme_bw()+
+  theme(legend.position = "NONE")
+```
+
