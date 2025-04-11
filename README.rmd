@@ -30,6 +30,7 @@ options(scipen = 10)
 ```{r  echo=FALSE,message=FALSE,results='asis'}
 library(tidyverse)
 library(gsheet)
+library(scales)
 d<-gsheet2tbl('https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing')
 
 GPU_specs<-read_csv("GPU_specs.csv")
@@ -65,6 +66,7 @@ dw_specs %>%
   geom_bar(stat="identity")+
   facet_grid(rows=vars(Architecture),scales="free",space = "free")+
   #annotate(geom="text", x=4, y=70, label="1 PromethION flowcell",color="red")+
+  scale_y_continuous(breaks = breaks_pretty(10))+
   coord_flip()+
   theme_bw()+
   theme(legend.position = "NONE")
