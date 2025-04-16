@@ -2,6 +2,7 @@ GPU,Architecture,CUDA Cores,RAM (GB),Tensor Cores,Architecture Release Year
 RTX 4090,Ada Lovelace,16384,24,512,2022
 RTX 4080 SUPER,Ada Lovelace,10240,16,320,2022
 RTX 4080,Ada Lovelace,9728,16,304,2022
+RTX 4080 Laptop GPU,Ada Lovelace,NA,NA,NA,2022
 RTX 4070 Ti SUPER,Ada Lovelace,8448,16,264,2022
 RTX 4070 Ti,Ada Lovelace,7680,12,240,2022
 RTX 4070 SUPER,Ada Lovelace,7168,12,224,2022
