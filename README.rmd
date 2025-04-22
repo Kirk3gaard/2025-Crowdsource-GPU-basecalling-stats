@@ -31,7 +31,7 @@ options(scipen = 10)
 library(tidyverse)
 library(gsheet)
 library(scales)
-d<-gsheet2tbl('https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing') %>% group_by(GPU) %>% filter(`Gbp/day`==max(`Gbp/day`))
+d<-gsheet2tbl('https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing') %>% group_by(GPU) %>% filter(`Gbp/day`==max(`Gbp/day`)) %>%  slice_head(n = 1)
 
 GPU_specs<-read_csv("GPU_specs.csv")
 
