@@ -58,7 +58,7 @@ dw_specs$`GPU` <- factor(dw_specs$`GPU`, levels = sorted_gpus)
 
 The red line indicates the capacity needed to basecall 1 PromethION flowcell (yielding 150 Gbp/72hours), the blue line 2 flowcells.
 
-```{r echo=FALSE,message=FALSE,warning=FALSE}
+```{r echo=FALSE,message=FALSE,warning=FALSE, fig.height=7}
 dw_specs %>% 
   ggplot(aes(y = `Gbp/day`,x = GPU,fill=Architecture,label=`Gbp/day`))+
   geom_hline(yintercept = 50,colour = "red",linetype = "dashed")+
