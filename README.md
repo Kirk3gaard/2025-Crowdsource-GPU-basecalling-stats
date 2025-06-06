@@ -1,7 +1,7 @@
 README
 ================
 Rasmus Kirkegaard
-04 June, 2025
+06 June, 2025
 
 ## Aim
 
