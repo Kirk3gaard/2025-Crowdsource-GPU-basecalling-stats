@@ -1,77 +1,77 @@
-GPU,Architecture,CUDA Cores,RAM (GB),Tensor Cores,Architecture Release Year
-RTX 6000,Ada Lovelace,18176,48,568,2022
-RTX 4090,Ada Lovelace,16384,24,512,2022
-RTX 4090 Mobile,Ada Lovelace,9728,16,304,2022
-RTX 4080 SUPER,Ada Lovelace,10240,16,320,2022
-RTX 4080,Ada Lovelace,9728,16,304,2022
-RTX 4080 Laptop GPU,Ada Lovelace,7424,12,232,2022
-RTX 4070 Ti SUPER,Ada Lovelace,8448,16,264,2022
-RTX 4070 Ti,Ada Lovelace,7680,12,240,2022
-RTX 4070 SUPER,Ada Lovelace,7168,12,224,2022
-RTX 4070,Ada Lovelace,5888,12,184,2022
-RTX 4060 Ti (16GB),Ada Lovelace,4352,16,136,2022
-RTX 4060 Ti,Ada Lovelace,4352,8,136,2022
-RTX 4060,Ada Lovelace,3072,8,96,2022
-RTX 5880,Ada Lovelace,14080,48,440,2022
-RTX 2000,Ada Lovelace,2816,16,88,2022
-RTX 2000 Laptop,Ada Lovelace,3072,8,96,2022
-RTX 3090 Ti,Ampere,10752,24,336,2020
-RTX 3090,Ampere,10496,24,328,2020
-RTX 3080 Ti,Ampere,10240,12,320,2020
-RTX 3080 Ti Laptop GPU,Ampere,7424,16,232,2020
-RTX 3080 (12GB),Ampere,8960,12,280,2020
-RTX 3080,Ampere,8704,10,272,2020
-RTX 3070 Ti,Ampere,6144,8,192,2020
-RTX 3070,Ampere,5888,8,184,2020
-RTX 3060 Ti,Ampere,4864,8,152,2020
-RTX 3060 (12GB),Ampere,3584,12,112,2020
-RTX 3060 (8GB),Ampere,3584,8,112,2020
-RTX 3060 Laptop GPU,Ampere,3840,6,120,2020
-RTX 3050 Ti,Ampere,NA,NA,NA,2020
-RTX 3050 Ti (Laptop only),Ampere,2560,4,80,2020
-RTX 3050 (6GB),Ampere,2304,6,72,2020
-RTX 3050,Ampere,2560,8,80,2020
-RTX 2080 Ti,Turing,4352,11,544,2018
-RTX 2080 SUPER,Turing,3072,8,384,2018
-RTX 2080,Turing,2944,8,368,2018
-RTX 2070 SUPER,Turing,2560,8,320,2018
-RTX 2070,Turing,2304,8,288,2018
-RTX 2060 SUPER,Turing,2176,8,272,2018
-RTX 2060 (12GB),Turing,1920,12,240,2018
-RTX 2060,Turing,1920,6,240,2018
-RTX 2050 (Laptop only),Turing,2048,4,64,2018
-GTX 1060 6GB,Pascal,1280,6,80,2014
-Titan RTX,Turing,4608,24,576,2018
-NVIDIA A6000,Ampere,10752,48,336,2020
-NVIDIA A5000,Ampere,8192,24,256,2020
-NVIDIA A4000,Ampere,6144,16,192,2020
-NVIDIA A2000,Ampere,3328,6,104,2020
-NVIDIA A100,Ampere,6912,40/80,432,2020
-NVIDIA A800,Ampere,6912,80,432,2020
-NVIDIA A30,Ampere,3584,24,224,2020
-NVIDIA A10,Ampere,9216,24,288,2020
-NVIDIA A40,Ampere,10752,48,336,2020
-NVIDIA L40,Ada Lovelace,18176,48,568,2022
-NVIDIA L4,Ada Lovelace,7424,24,240,2022
-NVIDIA L40S,Ada Lovelace,18176,48,568,2022
-NVIDIA A16,Ampere,1280,16,40,2020
-NVIDIA H100,Hopper,16896,80,456/528,2022
-NVIDIA H800,Hopper,16896,80,456/528,2022
-NVIDIA GH200 Grace Hopper Superchip,Hopper + Grace CPU,NA,HBM3 (GPU) + LPDDR5X (CPU),NA,2022
-NVIDIA B200,Blackwell,16896,96,528,2024
-NVIDIA GB200 NVL72,Blackwell + Grace CPU,NA,NA,NA,2024
-NVIDIA T4,Turing,2560,16,320,2018
-NVIDIA Quadro RTX 8000,Turing,4608,48,576,2018
-NVIDIA Quadro RTX 6000,Turing,4608,24,576,2018
-NVIDIA Quadro RTX 5000,Turing,3072,16,384,2018
-NVIDIA Quadro RTX 4000,Turing,2304,8,288,2018
-Tesla V100,Volta,5120,16/32,320,2017
-RTX 5090,Blackwell,21760,24,680,2024
-RTX 5080 Ti,Blackwell,NA,NA,NA,2024
-RTX 5080,Blackwell,10752,16,336,2024
-RTX 5070 Ti,Blackwell,8960,16,280,2024
-RTX 5070,Blackwell,6144,12,192,2024
-M4 MAX 32 Core GPU 36 GB,Apple,NA,NA,NA,3000
-M4 Max 40 Core GPU 64 GB,Apple,NA,NA,NA,3000
-M2 Ultra 76 Core GPU,Apple,NA,NA,NA,3000
-M1,Apple,NA,NA,NA,3000
+GPU,Architecture,CUDA Cores,RAM (GB),Tensor Cores,Architecture Release Year, Release price or some webshop price (USD),source
+RTX 6000,Ada Lovelace,18176,48,568,2022,6799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4090,Ada Lovelace,16384,24,512,2022,1599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4090 Mobile,Ada Lovelace,9728,16,304,2022,NA,NA
+RTX 4080 SUPER,Ada Lovelace,10240,16,320,2022,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4080,Ada Lovelace,9728,16,304,2022,1199,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4080 Laptop GPU,Ada Lovelace,7424,12,232,2022,NA,NA
+RTX 4070 Ti SUPER,Ada Lovelace,8448,16,264,2022,799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4070 Ti,Ada Lovelace,7680,12,240,2022,799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4070 SUPER,Ada Lovelace,7168,12,224,2022,599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4070,Ada Lovelace,5888,12,184,2022,599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4060 Ti (16GB),Ada Lovelace,4352,16,136,2022,499,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4060 Ti,Ada Lovelace,4352,8,136,2022,399,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4060,Ada Lovelace,3072,8,96,2022,299,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 5880,Ada Lovelace,14080,48,440,2022,6999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2000,Ada Lovelace,2816,16,88,2022,649,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2000 Laptop,Ada Lovelace,3072,8,96,2022,NA,NA
+RTX 3090 Ti,Ampere,10752,24,336,2020,1999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3090,Ampere,10496,24,328,2020,1499,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3080 Ti,Ampere,10240,12,320,2020,1199,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3080 Ti Laptop GPU,Ampere,7424,16,232,2020,NA,NA
+RTX 3080 (12GB),Ampere,8960,12,280,2020,799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3080,Ampere,8704,10,272,2020,699,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3070 Ti,Ampere,6144,8,192,2020,599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3070,Ampere,5888,8,184,2020,499,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3060 Ti,Ampere,4864,8,152,2020,399,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3060 (12GB),Ampere,3584,12,112,2020,329,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3060 (8GB),Ampere,3584,8,112,2020,329,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3060 Laptop GPU,Ampere,3840,6,120,2020,NA,NA
+RTX 3050 Ti,Ampere,NA,NA,NA,2020,NA,NA
+RTX 3050 Ti (Laptop only),Ampere,2560,4,80,2020,NA,NA
+RTX 3050 (6GB),Ampere,2304,6,72,2020,169,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3050,Ampere,2560,8,80,2020,249,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2080 Ti,Turing,4352,11,544,2018,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2080 SUPER,Turing,3072,8,384,2018,699,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2080,Turing,2944,8,368,2018,799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2070 SUPER,Turing,2560,8,320,2018,499,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2070,Turing,2304,8,288,2018,599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2060 SUPER,Turing,2176,8,272,2018,399,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2060 (12GB),Turing,1920,12,240,2018,299,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2060,Turing,1920,6,240,2018,349,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 2050 (Laptop only),Turing,2048,4,64,2018,NA,NA
+GTX 1060 6GB,Pascal,1280,6,80,2014,299,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+Titan RTX,Turing,4608,24,576,2018,2499,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+NVIDIA A6000,Ampere,10752,48,336,2020,4649,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+NVIDIA A5000,Ampere,8192,24,256,2020,2250,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+NVIDIA A4000,Ampere,6144,16,192,2020,1000,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+NVIDIA A2000,Ampere,3328,6,104,2020,449,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+NVIDIA A100,Ampere,6912,40/80,432,2020,8299,2025-06-08 https://www.amazon.com/NVIDIA-Ampere-Graphics-Processor-Accelerator/dp/B08X13X6HF
+NVIDIA A800,Ampere,6912,80,432,2020,20620,2025-06-08 https://www.dell.com/en-us/shop/dell-nvidia-rtx-a800-40-gb-hbm2-full-height-pcie-40x16-graphics-card/apd/490-bkfy/graphic-video-cards
+NVIDIA A30,Ampere,3584,24,224,2020,6961,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-A30-24GB-HBM2-Grafikkort/2954991?srsltid=AfmBOorfPYKy8QIt86yz6apieaKYOEdPDB2eAGvzrdOhe0w9kPq64OEL
+NVIDIA A10,Ampere,9216,24,288,2020,5512,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-A10-24GB-GDDR6-RAM-Grafikkort/3131873
+NVIDIA A40,Ampere,10752,48,336,2020,9151,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-A40-48GB-GDDR6-RAM-Grafikkort/2926330
+NVIDIA L40,Ada Lovelace,18176,48,568,2022,15418,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-L40-48GB-GDDR6-RAM-Grafikkort/3175657
+NVIDIA L4,Ada Lovelace,7424,24,240,2022,3401,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-L4-24GB-GDDR6-RAM-Grafikkort/3181974
+NVIDIA L40S,Ada Lovelace,18176,48,568,2022,13571,2025-06-08 https://www.computersalg.dk/i/10549799/nvidia-l40s-gpu-beregningsprocessor-nvidia-l40s-48-gb-gddr6-pcie-4-0-x16-4-x-displayport?srsltid=AfmBOopD2dMI0XjqVBOBnCI0eguMJGsq2uBN7fij3k9mvjdwGNRsAL5K
+NVIDIA A16,Ampere,1280,16,40,2020,5235,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-A16-64GB-GDDR6-RAM-Grafikkort/2994356
+NVIDIA H100,Hopper,16896,80,456/528,2022,46059,2025-06-08 https://www.computersalg.dk/i/20847162/nvidia-h100-gpu-beregningsprocessor-gddr6
+NVIDIA H800,Hopper,16896,80,456/528,2022,20386,2025-06-08 https://officedanmark.dk/corporate/pny-a800-40gb-active-w-nvaie/cat-p/c/p1004466274
+NVIDIA GH200 Grace Hopper Superchip,Hopper + Grace CPU,NA,HBM3 (GPU) + LPDDR5X (CPU),NA,2022,36750,2025-06-08 https://www.ebay.com/itm/388480570185
+NVIDIA B200,Blackwell,16896,96,528,2024,NA,NA
+NVIDIA GB200 NVL72,Blackwell + Grace CPU,NA,NA,NA,2024,NA,NA
+NVIDIA T4,Turing,2560,16,320,2018,11371,2025-06-08 https://www.dustin.dk/product/5020032691/nvidia-tesla-t4-16-gb-gddr6
+NVIDIA Quadro RTX 8000,Turing,4608,48,576,2018,15576,2025-06-08 https://www.dustin.dk/product/5011201950/nvidia-quadro-rtx-8000
+NVIDIA Quadro RTX 6000,Turing,4608,24,576,2018,13856,2025-06-08 https://www.dustin.dk/product/5011219606/nvidia-quadro-rtx-6000-graphics-accelerator
+NVIDIA Quadro RTX 5000,Turing,3072,16,384,2018,3286,2025-06-08 https://www.fcomputer.dk/nvidia-quadro-rtx-5000-grafikkort-vcqrtx5000-sb
+NVIDIA Quadro RTX 4000,Turing,2304,8,288,2018,2236,2025-06-08 https://www.fcomputer.dk/nvidia-quadro-rtx-4000-grafikkort-s26361-f4025-l540
+Tesla V100,Volta,5120,16/32,320,2017,10544,2025-06-08 https://www.fcomputer.dk/nvidia-tesla-v100s-gpu-beregningsprocessor-tcsv100sm-32gb-pb
+RTX 5090,Blackwell,21760,24,680,2024,1999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 5080 Ti,Blackwell,NA,NA,NA,2024,NA,NA
+RTX 5080,Blackwell,10752,16,336,2024,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 5070 Ti,Blackwell,8960,16,280,2024,749,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 5070,Blackwell,6144,12,192,2024,549,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+M4 MAX 32 Core GPU 36 GB,Apple,NA,NA,NA,3000,NA,NA
+M4 Max 40 Core GPU 64 GB,Apple,NA,NA,NA,3000,NA,NA
+M2 Ultra 76 Core GPU,Apple,NA,NA,NA,3000,NA,NA
+M1,Apple,NA,NA,NA,3000,NA,NA
