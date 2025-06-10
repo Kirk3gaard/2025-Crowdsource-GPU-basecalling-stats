@@ -13,6 +13,7 @@ RTX 4060 Ti (16GB),Ada Lovelace,4352,16,136,2022,499,https://en.wikipedia.org/wi
 RTX 4060 Ti,Ada Lovelace,4352,8,136,2022,399,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4060,Ada Lovelace,3072,8,96,2022,299,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5880,Ada Lovelace,14080,48,440,2022,6999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 3500,Ada Lovelace,NA,NA,NA,2022,NA,NA
 RTX 2000,Ada Lovelace,2816,16,88,2022,649,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 2000 Laptop,Ada Lovelace,3072,8,96,2022,NA,NA
 RTX 3090 Ti,Ampere,10752,24,336,2020,1999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
