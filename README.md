@@ -15,7 +15,7 @@ nanopore basecalling with
   ([zenodo](https://zenodo.org/records/15180194))
 - Download [dorado](https://github.com/nanoporetech/dorado)
 - Run basecalling
-  `dorado basecaller --device  'cuda:0' sup pod5/ > basecalls.bam`
+  `dorado basecaller --device  'cuda:0' sup pod5s/ > basecalls.bam`
 - Add your samples/s output to [google
   form](https://forms.gle/Qw1wiL662YrbHPxk6)
 
