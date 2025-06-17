@@ -1,7 +1,7 @@
 README
 ================
 Rasmus Kirkegaard
-11 June, 2025
+17 June, 2025
 
 ## Aim
 
@@ -12,7 +12,8 @@ nanopore basecalling with
 ## How to contribute?
 
 - Download some 5khz pod5 data
-  ([zenodo](https://zenodo.org/records/15180194))
+  ([zenodo](https://zenodo.org/records/15180194)) or ([dropbox (likely
+  faster)](https://www.dropbox.com/scl/fi/bpe4rxzst7odp4ia0xo28/basecalling_benchmarks_5khz_pod5s.tar.gz?rlkey=g1w76w3yooabdapycbsqvnln8&st=5u59ad6q&dl=0))
 - Download [dorado](https://github.com/nanoporetech/dorado)
 - Run basecalling
   `dorado basecaller --device  'cuda:0' sup pod5/ > basecalls.bam`
