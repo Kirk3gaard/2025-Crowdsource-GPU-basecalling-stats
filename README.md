@@ -1,7 +1,7 @@
 README
 ================
 Rasmus Kirkegaard
-19 June, 2025
+30 June, 2025
 
 ## Aim
 
@@ -16,7 +16,7 @@ nanopore basecalling with
   faster)](https://www.dropbox.com/scl/fi/bpe4rxzst7odp4ia0xo28/basecalling_benchmarks_5khz_pod5s.tar.gz?rlkey=g1w76w3yooabdapycbsqvnln8&st=5u59ad6q&dl=0))
 - Download [dorado](https://github.com/nanoporetech/dorado)
 - Run basecalling
-  `dorado basecaller --device  'cuda:0' sup pod5s/ > basecalls.bam`
+  `dorado basecaller --device  'cuda:0' sup pod5/ > basecalls.bam`
 - Add your samples/s output to [google
   form](https://forms.gle/Qw1wiL662YrbHPxk6)
 
