@@ -137,7 +137,7 @@ dw_specs %>% filter(!is.na(`Release price or some webshop price (USD)`)) %>%
   mutate(PricePerformance=round(`Release price or some webshop price (USD)`/`Gbp/day`)) %>%
   ggplot(aes(y = PricePerformance,x = GPU,fill=Architecture,label=PricePerformance))+
   geom_bar(stat="identity")+
-  geom_text(aes(y=(`PricePerformance`*1.2)))+
+  geom_text(aes(y=(`PricePerformance`*1.5)))+
   scale_y_log10()+
   ylab("Price performance (USD/daily Gbp)")+
   facet_grid(rows=vars(Architecture),scales="free",space = "free")+
