@@ -64,7 +64,7 @@ dw_specs %>%
   geom_hline(yintercept = 50,colour = "red",linetype = "dashed")+
   geom_hline(yintercept = 100,colour = "blue",linetype = "dashed")+
   geom_bar(stat="identity")+
-  geom_text(aes(y=(`Gbp/day`+4)))+
+  geom_text(aes(y=(`Gbp/day`+10)))+
   facet_grid(rows=vars(Architecture),scales="free",space = "free")+
   #annotate(geom="text", x=4, y=70, label="1 PromethION flowcell",color="red")+
   scale_y_continuous(breaks = breaks_pretty(10))+
