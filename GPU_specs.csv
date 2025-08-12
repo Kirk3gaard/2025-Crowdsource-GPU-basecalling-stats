@@ -44,6 +44,7 @@ RTX 2060 (12GB),Turing,1920,12,240,2018,299,https://en.wikipedia.org/wiki/List_o
 RTX 2060,Turing,1920,6,240,2018,349,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 2050 (Laptop only),Turing,2048,4,64,2018,NA,NA
 GTX 1060 6GB,Pascal,1280,6,80,2014,299,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+GT 1030,Pascal,384,2,NA,2014,80,2025-08-12 https://en.wikipedia.org/wiki/GeForce_10_series
 Tesla P4, Pascal, NA,8,NA,2014,NA,https://www.techpowerup.com/gpu-specs/tesla-p4.c2879
 Titan RTX,Turing,4608,24,576,2018,2499,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 NVIDIA A6000,Ampere,10752,48,336,2020,4649,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
@@ -69,7 +70,8 @@ NVIDIA Quadro RTX 8000,Turing,4608,48,576,2018,15576,2025-06-08 https://www.dust
 NVIDIA Quadro RTX 6000,Turing,4608,24,576,2018,13856,2025-06-08 https://www.dustin.dk/product/5011219606/nvidia-quadro-rtx-6000-graphics-accelerator
 NVIDIA Quadro RTX 5000,Turing,3072,16,384,2018,3286,2025-06-08 https://www.fcomputer.dk/nvidia-quadro-rtx-5000-grafikkort-vcqrtx5000-sb
 NVIDIA Quadro RTX 4000,Turing,2304,8,288,2018,2236,2025-06-08 https://www.fcomputer.dk/nvidia-quadro-rtx-4000-grafikkort-s26361-f4025-l540
-Quadro GV100, Volta,NA,NA,NA,2017,NA,NA
+Quadro GV100, Volta,5120,32,640,2017,8999, 2025-08-12 https://en.wikipedia.org/wiki/Volta_(microarchitecture)
+NVIDIA TITAN V, Volta,5120,12,640,2017,2999, 2025-08-12 https://en.wikipedia.org/wiki/Volta_(microarchitecture)
 Tesla V100,Volta,5120,16/32,320,2017,10544,2025-06-08 https://www.fcomputer.dk/nvidia-tesla-v100s-gpu-beregningsprocessor-tcsv100sm-32gb-pb
 RTX 5090,Blackwell,21760,24,680,2024,1999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5080 Ti,Blackwell,NA,NA,NA,2024,NA,NA
