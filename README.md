@@ -1,7 +1,7 @@
 README
 ================
 Rasmus Kirkegaard
-12 August, 2025
+19 August, 2025
 
 ## Aim
 
@@ -25,10 +25,11 @@ nanopore basecalling with
 The collected information is available in [this google
 sheet](https://docs.google.com/spreadsheets/d/1p_oqalXtyMomcoeh0CE-crBgxsGifBYMvTR7hHBqmEw/edit?usp=sharing)
 
-## Basecalling performance
+## Basecalling performance (SUP)
 
 The red line indicates the capacity needed to basecall 1 PromethION
-flowcell (yielding 150 Gbp/72hours), the blue line 2 flowcells.
+flowcell (yielding 150 Gbp/72hours) with the SUPer accuracy model, the
+blue line 2 flowcells.
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
