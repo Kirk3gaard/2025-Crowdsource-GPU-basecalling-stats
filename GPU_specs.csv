@@ -1,6 +1,7 @@
 GPU,Architecture,CUDA Cores,RAM (GB),Tensor Cores,Architecture Release Year, Release price or some webshop price (USD),source
 RTX 6000,Ada Lovelace,18176,48,568,2022,6799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5880,Ada Lovelace,14080,48,440,2022,6999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 5000,Ada Lovelace,12800,32,400,2022,4000,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4090,Ada Lovelace,16384,24,512,2022,1599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4090 Mobile,Ada Lovelace,9728,16,304,2022,NA,NA
 RTX 4080 SUPER,Ada Lovelace,10240,16,320,2022,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
@@ -61,6 +62,7 @@ NVIDIA L4,Ada Lovelace,7424,24,240,2022,3401,2025-06-08 https://www.proshop.dk/G
 NVIDIA L40S,Ada Lovelace,18176,48,568,2022,13571,2025-06-08 https://www.computersalg.dk/i/10549799/nvidia-l40s-gpu-beregningsprocessor-nvidia-l40s-48-gb-gddr6-pcie-4-0-x16-4-x-displayport?srsltid=AfmBOopD2dMI0XjqVBOBnCI0eguMJGsq2uBN7fij3k9mvjdwGNRsAL5K
 NVIDIA A16,Ampere,1280,16,40,2020,5235,2025-06-08 https://www.proshop.dk/Grafikkort/PNY-NVIDIA-A16-64GB-GDDR6-RAM-Grafikkort/2994356
 NVIDIA H100,Hopper,16896,80,456/528,2022,46059,2025-06-08 https://www.computersalg.dk/i/20847162/nvidia-h100-gpu-beregningsprocessor-gddr6
+NVIDIA H200,Hopper,16896,141,528,2022,NA,2025-08-28 https://www.techpowerup.com/gpu-specs/h200-nvl.c4254
 NVIDIA H800,Hopper,16896,80,456/528,2022,20386,2025-06-08 https://officedanmark.dk/corporate/pny-a800-40gb-active-w-nvaie/cat-p/c/p1004466274
 NVIDIA GH200 Grace Hopper Superchip,Hopper + Grace CPU,NA,HBM3 (GPU) + LPDDR5X (CPU),NA,2022,36750,2025-06-08 https://www.ebay.com/itm/388480570185
 NVIDIA B200,Blackwell,16896,96,528,2024,NA,NA
