@@ -2,6 +2,7 @@ GPU,Architecture,CUDA Cores,RAM (GB),Tensor Cores,Architecture Release Year, Rel
 RTX 6000,Ada Lovelace,18176,48,568,2022,6799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5880,Ada Lovelace,14080,48,440,2022,6999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5000,Ada Lovelace,12800,32,400,2022,4000,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 4500,Ada Lovelace,7680,24,240,2022,2250,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4090,Ada Lovelace,16384,24,512,2022,1599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4090 Mobile,Ada Lovelace,9728,16,304,2022,NA,NA
 RTX 4080 SUPER,Ada Lovelace,10240,16,320,2022,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
