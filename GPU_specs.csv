@@ -77,6 +77,7 @@ Quadro GV100, Volta,5120,32,640,2017,8999, 2025-08-12 https://en.wikipedia.org/w
 NVIDIA TITAN V, Volta,5120,12,640,2017,2999, 2025-08-12 https://en.wikipedia.org/wiki/Volta_(microarchitecture)
 Tesla V100,Volta,5120,16/32,320,2017,10544,2025-06-08 https://www.fcomputer.dk/nvidia-tesla-v100s-gpu-beregningsprocessor-tcsv100sm-32gb-pb
 RTX 5090,Blackwell,21760,24,680,2024,1999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+RTX 5000 PRO,Blackwell,14080,48,440,2024,7180,2025-11-20 https://www.proshop.dk/Grafikkort/NVIDIA-RTX-PRO-5000-Blackwell-Bulk-48GB-GDDR7-RAM-Grafikkort/3358880
 RTX 5080 Ti,Blackwell,NA,NA,NA,2024,NA,NA
 RTX 5080,Blackwell,10752,16,336,2024,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5070 Ti,Blackwell,8960,16,280,2024,749,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
