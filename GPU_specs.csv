@@ -76,6 +76,7 @@ NVIDIA Quadro RTX 4000,Turing,2304,8,288,2018,2236,2025-06-08 https://www.fcompu
 Quadro GV100, Volta,5120,32,640,2017,8999, 2025-08-12 https://en.wikipedia.org/wiki/Volta_(microarchitecture)
 NVIDIA TITAN V, Volta,5120,12,640,2017,2999, 2025-08-12 https://en.wikipedia.org/wiki/Volta_(microarchitecture)
 Tesla V100,Volta,5120,16/32,320,2017,10544,2025-06-08 https://www.fcomputer.dk/nvidia-tesla-v100s-gpu-beregningsprocessor-tcsv100sm-32gb-pb
+RTX 6000 PRO,Blackwell,24064,96,752,2024,11651,2026-04-29 https://www.proshop.dk/Grafikkort/NVIDIA-RTX-PRO-6000-Blackwell-Retail-96GB-GDDR7-RAM-Grafikkort/3358882?srsltid=AfmBOopEq1bhvMTLc8RcIcggi3-xMS27mIPfO19Ox7aPC43NL4uhBE7J
 RTX 5090,Blackwell,21760,24,680,2024,1999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5090 Laptop,Blackwell,10496,24,328,2024,NA,https://en.wikipedia.org/wiki/GeForce_RTX_50_series
 RTX 5000 PRO,Blackwell,14080,48,440,2024,7180,2025-11-20 https://www.proshop.dk/Grafikkort/NVIDIA-RTX-PRO-5000-Blackwell-Bulk-48GB-GDDR7-RAM-Grafikkort/3358880
@@ -83,7 +84,9 @@ RTX 5080 Ti,Blackwell,NA,NA,NA,2024,NA,NA
 RTX 5080,Blackwell,10752,16,336,2024,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5070 Ti,Blackwell,8960,16,280,2024,749,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5070,Blackwell,6144,12,192,2024,549,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+NVIDIA Jetson AGX Thor,Blackwell,2560,128,96,2024,NA,NA
 M4 MAX 32 Core GPU 36 GB,Apple,NA,NA,NA,3000,NA,NA
 M4 Max 40 Core GPU 64 GB,Apple,NA,NA,NA,3000,NA,NA
+M3 Pro,Apple,NA,NA,NA,3000,NA,NA
 M2 Ultra 76 Core GPU,Apple,NA,NA,NA,3000,NA,NA
 M1,Apple,NA,NA,NA,3000,NA,NA
