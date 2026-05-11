@@ -8,6 +8,7 @@ RTX 4090 Mobile,Ada Lovelace,9728,16,304,2022,NA,NA
 RTX 4080 SUPER,Ada Lovelace,10240,16,320,2022,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4080,Ada Lovelace,9728,16,304,2022,1199,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4080 Laptop GPU,Ada Lovelace,7424,12,232,2022,NA,NA
+RTX 4070 laptop GPU,Ada Lovelace,4608,8,144,2022,NA,NA
 RTX 4070 Ti SUPER,Ada Lovelace,8448,16,264,2022,799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4070 Ti,Ada Lovelace,7680,12,240,2022,799,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 4070 SUPER,Ada Lovelace,7168,12,224,2022,599,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
@@ -84,6 +85,7 @@ RTX 5080 Ti,Blackwell,NA,NA,NA,2024,NA,NA
 RTX 5080,Blackwell,10752,16,336,2024,999,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5070 Ti,Blackwell,8960,16,280,2024,749,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
 RTX 5070,Blackwell,6144,12,192,2024,549,https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units
+DGX Spark GB10, Blackwell,6144,NA,384,2024,4800, 2026-05-11 https://marketplace.nvidia.com/it-it/enterprise/personal-ai-supercomputers/dgx-spark/
 NVIDIA Jetson AGX Thor,Blackwell,2560,128,96,2024,NA,NA
 M4 MAX 32 Core GPU 36 GB,Apple,NA,NA,NA,3000,NA,NA
 M4 Max 40 Core GPU 64 GB,Apple,NA,NA,NA,3000,NA,NA
